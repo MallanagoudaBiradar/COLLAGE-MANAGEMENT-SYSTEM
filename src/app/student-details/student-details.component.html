@@ -1,0 +1,17 @@
+<div class="studInfo">
+  <form [formGroup]="studInfoForm">
+    <label for="name">Student Name</label>
+    <input type="text"class="form-control mb-3" placeholder="Enter students's name" formControlName="studName" required>
+
+    <label for="card">Card Number</label>
+    <input type="text"class="form-control mb-3" placeholder="Enter card number" formControlName="card" required>
+  
+    <label for="expiry">Expiry Date</label>
+    <input type="text" class="form-control mb-3" placeholder="Enter card's expiry date"  formControlName="expiry" required>
+  
+    <label for="cvv">CVV</label>
+    <input type="text" class="form-control" placeholder="Enter card's cvv number"  formControlName="cvv" required> <br>
+  
+    <button class="btn btn-primary" type="submit" (click)="addStudInfo()">Add Student Info</button>
+  </form>
+</div>

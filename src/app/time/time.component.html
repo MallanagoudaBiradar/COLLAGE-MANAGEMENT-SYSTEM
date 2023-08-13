@@ -1,0 +1,18 @@
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of data">
+                <td>{{item.time}}</td>
+                <td>{{item.monday}}</td>
+                <td>{{item.tuesday}}</td>
+                <td>{{item.wednesday}}</td>
+                <td>{{item.thursday}}</td>
+                <td>{{item.friday}}</td>
+                <td>{{item.saturday}}</td>
+                <td><button routerLink="/update/{{item.id}}" class="btn btn-warning">EDIT</button>&nbsp;
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

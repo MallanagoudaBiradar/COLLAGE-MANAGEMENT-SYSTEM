@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Login</h1>
+                    <h6>Please enter user name & password</h6>
+                </div>
+              
+                    <form >
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" 
+                                aria-describedby="emailHelp" formControlName="email">
+                          
+                           
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" formControlName="password">
+                           
+                        </div>
+                        <button type="submit" class="btn btn-primary" routerLink="/Home">Login</button>
+                    </form>
+             
+              <a style="color: #ffff; margin-top: 10px;" routerLink="/forgot-password">Forgot Password?</a>
+            </div>
+        </div>
+    </div>
+</div>

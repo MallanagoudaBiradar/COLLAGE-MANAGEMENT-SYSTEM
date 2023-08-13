@@ -1,0 +1,153 @@
+{
+  "posts": [
+    {
+      "studentname": "raj",
+      "fathername": "raj",
+      "mothername": "raj",
+      "dob": "2023-06-22",
+      "address": "Alkunte Nagar near Dcc Bank bijapur",
+      "gender": "male",
+      "course": "BCA",
+      "email": "raj@",
+      "mobilenumber": 888,
+      "id": 1
+    },
+    {
+      "studentname": "Deepa",
+      "fathername": "Vishwanath",
+      "mothername": "savitri",
+      "dob": "2001-12-12",
+      "address": "Alkunte Nagar near Dcc Bank bijapur",
+      "gender": "female",
+      "course": "BE",
+      "email": "abc@gmail.com",
+      "mobilenumber": 1321313,
+      "id": 2
+    },
+    {
+      "studentname": "abc",
+      "fathername": "xyz",
+      "mothername": "pqr",
+      "dob": "2001-07-07",
+      "address": "Dcc Bank",
+      "gender": "male",
+      "course": "BCA",
+      "email": "xyz@gmail.com",
+      "mobilenumber": 3132120,
+      "id": 3
+    }
+  ],
+  "staff": [
+    {
+      "id": 2,
+      "name": "Sadhana",
+      "class": "A",
+      "department": "Electrical and Electronics",
+      "subject": "powerSystemAnalysis"
+    },
+    {
+      "name": "Shree",
+      "class": "A",
+      "department": "Electronics and Communication",
+      "subject": "verilogdesign",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Daneshwari",
+      "class": "B",
+      "department": "Electronics and Communication",
+      "subject": "AnalogDesign"
+    },
+    {
+      "name": "sanjana",
+      "class": "B",
+      "department": "Information science",
+      "subject": "COA",
+      "id": 5
+    }
+  ],
+  "post": [
+    {
+      "name": " Engg👨‍🎓",
+      "mobile": "2023-06-07",
+      "email": "10+2 Eligible",
+      "time": "Duaration is 4years",
+      "id": 1
+    },
+    {
+      "name": "BCA ",
+      "mobile": "2023-06-13",
+      "select": null,
+      "email": "Yes",
+      "time": "3 Years",
+      "id": 2
+    },
+    {
+      "name": "MCA",
+      "mobile": "2023-06-30",
+      "select": null,
+      "email": "yes",
+      "time": "2 years",
+      "id": 3
+    },
+    {
+      "name": "M.tech",
+      "mobile": "2023-06-23",
+      "select": null,
+      "email": "yes",
+      "time": "2 years",
+      "id": 4
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "studentName": "Aarav",
+      "date": "2023-06-24",
+      "status": "Present",
+      "id": 2
+    },
+    {
+      "studentName": "Aarav",
+      "status": "Present",
+      "id": 3
+    },
+    {
+      "studentName": "Ishaan",
+      "date": "2023-06-29",
+      "status": "Present",
+      "id": 4
+    },
+    {
+      "studentName": "Aarush",
+      "date": "2023-07-01",
+      "status": "Present",
+      "id": 5
+    }
+  ],
+  "fees": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "studentInfo": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "card": "926050",
+      "expiry": "23022025",
+      "cvv": "1990",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+<div class="container mt-5">
+  <div class="row">
+      <div class="col-md-6">
+          <div class="card">
+              <h2>Update</h2>
+              <div class="row">
+                <form>
+                  <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Student Name</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" [(ngModel)]="admission.studentname" name="studentname"  placeholder="Enter name">
+                    </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Father Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1"[(ngModel)]="admission.fathername" name="fathername" placeholder="Enter father name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Mother Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" [(ngModel)]="admission.mothername" name="mothername"  placeholder="Enter mother name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">DOB</label>
+              <input type="date" class="form-control" id="exampleFormControlInput1"[(ngModel)]="admission.dob" name="dob" placeholder="Enter dob">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Address</label>
+              <textarea class="form-control" id="exampleFormControlInput1" [(ngModel)]="admission.address" name="address" placeholder="Enter address"></textarea>
+            </div>
+            <div class="mb-3">
+              <label>Gender</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio"  id="male" value="male">
+                <label class="form-check-label" for="male">Male</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio"  id="female" value="female">
+                <label class="form-check-label" for="female">Female</label>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="course">Course</label>
+              <select class="form-control" id="course" [(ngModel)]="admission.course" name="course" placeholder="Enter course">
+                <option value="">Select a course</option>
+                <option value="BE">BE</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="admission.email" name="email" placeholder="Enter email">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Mobile Number</label>
+              <input type="number" class="form-control" id="exampleFormControlInput1" [(ngModel)]="admission.mobilenumber" name="mobilenumber"  placeholder="Enter mobilenumber">
+            </div>
+            
+      </form>
+              </div>
+              <button (click)="update()" class="btn btn-success">Update</button>&nbsp;
+              <button routerLink="/admission" class="btn btn-warning">Cancel</button>
+          </div>
+      </div>
+  </div>
+</div>

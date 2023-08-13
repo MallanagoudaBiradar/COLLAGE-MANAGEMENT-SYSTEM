@@ -1,0 +1,17 @@
+<div>
+    <h2>Payment Gateway</h2>
+    <form [formGroup]="paymentForm">
+        <label for="cardNumber">Card Number</label>
+        <input type="text" class="form-control mb-3" placeholder="Enter your card number" formControlName="card">
+
+        <label for="expiryDate">Expiry Date</label>
+        <input type="text" class="form-control mb-3" placeholder="Enter card's expiry date" formControlName="expiry">
+
+        <label for="cvv">CVV</label>
+        <input type="text" class="form-control mb-3" placeholder="Enter card's cvv number"  formControlName="cvv">
+
+        <button class="btn btn-primary" type="submit" (click)="pay()">Pay Now</button>
+
+    </form>
+    
+</div>
